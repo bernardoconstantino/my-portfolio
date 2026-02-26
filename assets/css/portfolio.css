@@ -1,0 +1,16 @@
+.portfolio {
+    margin: 0 30px;
+
+    & .github-profile {
+        padding: 20px 0;
+    }
+
+    & .layout-created {
+        padding: 20px 0;
+    }
+
+    & a {
+        color: white;
+        font-weight: 200;
+    }
+}
