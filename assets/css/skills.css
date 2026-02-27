@@ -51,7 +51,7 @@
     .skills {
         display: grid;
         grid-template-columns: 1fr;
-        padding: 20px;
+        padding: 0 0 0 5px;
 
         & .professional-skills {
             & ul {
@@ -61,7 +61,10 @@
 
         & .personal-skills {
             & ul {
-                padding: 0 0 0 10px;
+                padding: 0 0 0 1px;
+                font-weight: 200;
             }
         }
     }
+
+}
