@@ -42,4 +42,26 @@
             padding: 5px;
         }
     }
+
+
 }
+
+@media only screen and (max-width: 767px) {
+
+    .skills {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px;
+
+        & .professional-skills {
+            & ul {
+                justify-content: center;
+            }
+        }
+
+        & .personal-skills {
+            & ul {
+                padding: 0 0 0 10px;
+            }
+        }
+    }

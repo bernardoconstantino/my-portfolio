@@ -42,5 +42,28 @@
             }
         }
     }
+}
 
+@media only screen and (max-width: 767px) {
+
+    .courses {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px;
+
+        & .conquistas {
+            & ul {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+                text-align: center;
+            }
+        }
+
+        & .formations {
+            & ul {
+                padding: 0 0 0 10px;
+            }
+        }
+    }
 }
